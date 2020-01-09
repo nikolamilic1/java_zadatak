@@ -1,0 +1,24 @@
+package zimskiZadatak;
+
+import java.util.Scanner;
+
+public class Zadatak1a {
+
+	public static void main(String[] args) {
+		int[] niz = new int[24];
+		Scanner scanner = new Scanner(System.in);
+		for (int i = 0; i <= 23; i++) {
+			int j = i + 1;
+			System.out.println("Unesi " + j + ". broj: ");
+			niz[i] = scanner.nextInt();
+		}
+		scanner.close();
+		System.out.println("Ispisivanje članova niza: ");
+		for (int i = 0; i <= 23; i++) {
+			System.out.print(niz[i] + ", ");
+
+		}
+
+	}
+
+}
