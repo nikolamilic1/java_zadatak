@@ -2,6 +2,8 @@ package bug;
 
 import javax.swing.JOptionPane;
 
+	// Keirati program koji unosi dvije matrice 4x4 te ispisuje njihov zbroj
+
 public class SamoZadatak {
 
 	public static void main(String[] args) {
